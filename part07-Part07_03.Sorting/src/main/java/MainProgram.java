@@ -7,8 +7,12 @@ public class MainProgram {
     public static void main(String[] args) {
 
         int[] numbers = {8, 3, 7, 9, 1, 2, 4};
-        MainProgram.sort(numbers);
-   }
+        //System.out.println(smallest(array));
+        //System.out.println(indexOfSmallest(array));
+        //System.out.println(indexOfSmallestFrom(array, 2));
+        //swap(array, 1, 0);
+        sort(numbers);
+    }
     
     public static int smallest(int[] array){
         int smallestValue = array[0];
